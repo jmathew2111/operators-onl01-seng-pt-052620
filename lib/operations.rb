@@ -10,8 +10,7 @@ def unsafe?(mph)
   end
 end
 
-def not_safe?(mph)
-  mph < 40 ? true : false
+def 
   mph > 40 ? false : true
   mph < 60 ? false : true 
 end 
