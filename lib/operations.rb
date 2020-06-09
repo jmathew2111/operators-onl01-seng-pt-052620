@@ -1,4 +1,4 @@
-def unsafe (mph)
+def unsafe?(mph)
   if mph < 40
     return "true"
   elsif mph > 60  
@@ -10,7 +10,7 @@ def unsafe (mph)
   end
 end
 
-def no_safe (mph)
+def no_safe?(mph)
   mph < 40 ? "true":"false"
   mph > 60 ? "true":"false"
   mph > 40 ? "false" :"false"
